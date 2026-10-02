@@ -107,7 +107,7 @@ if st.button("Convert", type="primary", use_container_width=True):
             f"**Summary**  \n"
             f"- You send: **${usd_amount:,.2f} USD**  \n"
             f"- Rate (Remitly): **1 USD = {rate:,.4f} BDT**  \n"
-            f"- Base BDT: **{base_bdt:,.2f} BDT**"
+            f"- Base BDT: **{base_bdt:,.2f} BDT**  \n"
             f"- + 2.5% remittance bonus: **{bonus_bdt:,.2f} BDT**  \n"
             f"- **Total: {total_bdt:,.2f} BDT**"
         )
